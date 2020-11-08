@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CandyLand - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <div class="navigation"><a class="arrow" href="/mainpage"><img src="up-arrow.png"" alt=" Arrow"></a></div>
+  </nav>
+
+
+  <main>
+    <div class="login-box">
+      <img class="donut" src="Full Images/donut.jpg" alt="Pink Donut">
+
+      <div class="login">
+        <div class="header">
+          <h2>Login to CandyLand</h2>
+        </div>
+        <div class="form-container">
+          <form action="database" method="POST">
+
+            <div class="username">
+              <label for="name"><img class="login-icon" src="personal-information.png" alt="Person Icon"></label>
+              <input type="text" name="name" id="name" required placeholder="Username">
+            </div>
+
+            <div class="password">
+             <label for="password"><img class="login-icon" src="key.png" alt="Key Icon"></label>
+              <input type="password" name="password" id="password" required placeholder="Password"><a href="/forgot">Forgot?</a>
+                
+            </div>
+
+            <div class="register">
+              <p>Dont have a Account? <a class="register" href="/register">Register now!</a></p>
+            </div>
+
+            <div class="login-button"><input type="image" id="submit" alt="Login" src="login.png"></div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="/insta"><img class="navigation" src="instagram.png" alt="Instagram Icon"></a></li>
+      <li><a href="/facebook"><img class="navigation" src="facebook.png" alt="Facebook Icon"></a></li>
+      <li><a href="/twitter"><img class="navigation" src="twitter.png" alt="Twitter Icon"></a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
